@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalle Alquiler</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header>
+        <p class="burger">
+                <i class="fas fa-bars"></i>
+            </p>
+        <div>
+            <a href="index.html"> <img src="./img/beach-house.svg" alt="beachlife"></a>
+        </div>
+        <h1>Beach Life</h1>
+        <nav>
+            <ul>
+                <a href="index.html">Inicio</a>
+                <a href="compra.html">Compras</a>
+                <a href="alquiler.html">Alquileres</a>
+                <a href="contacto.html">Contacto</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="breadcrumbs">
+            <a href="index.html">Inicio</a>
+            <span> > </span>
+            <a href="alquiler.html">Alquiler</a>
+            <span> > </span>
+            <span class="activo">Alquiler1</span>
+    </div>
+    <div class="fila desc">
+        <div class="col2">
+            <p class="descrip">
+                Casoplón <br>Costa del sol <br> Marbella
+                dirección (calle, CP) <br>666 847 954 123<br>Es una casa ideal, de 3000m<sup>2</sup> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus facere velit esse odit quas corporis atque ipsam nisi voluptatem rem facilis id, aliquid nihil qui tenetur similique harum molestias mollitia maxime fugit sapiente doloribus nobis. Quisquam, sed debitis. Velit, atque! Quidem aperiam alias nobis placeat, officiis itaque. Et, aspernatur commodi!
+            </p>
+        </div>
+        <div class="col3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102630.66989164193!2d-4.935040491783815!3d36.500830380025114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d809904dabdf%3A0xe6c9db907b5ecab!2sMarbella%2C+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1518990033937" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+</div>
+<div class="imagen1 desc">
+    <a href="#"><img src="./img/intalq.jpg" alt="casa1"></a>
+    <a href="#"><img src="./img/intalq2.jpg" alt="casa2"></a>
+    <a href="#"><img src="./img/intalq3.jpg" alt="intalq3"></a>
+    <a href="#"><img src="./img/intalq4.jpg" alt="intalq4"></a>
+    <a href="#"><img src="./img/intalq5.jpg" alt="intalq4"></a>
+    <a href="#"><img src="./img/intalq6.jpg" alt="intalq4"></a>     
+</div>
+<div class="container">
+    <form>
+        <h1>¿Te gusta esta casa?</h1>
+        <div class="fila1">
+            <div class="col50">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+            </div>
+            <div class="col50">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Escriba sus apellidos">
+            </div>
+        </div>
+        <div class="fila1">
+            <div class="col33">
+                <label for="telefono">Teléfono</label>
+                <input type="number" class="telefono" id="telefono" placeholder="Teléfono">
+            </div>
+            <div class="col66">
+                <label for="mail">Correo electrónico</label>
+                <input type="text" class="mail" id="mail" placeholder="Correo electrónico">
+            </div>
+    </div>
+        <div class="fila1">
+            <div class="col100check">
+                <input type="checkbox" name="condiciones" id="condiciones" value="si">
+                <label for="condiciones" class="check">
+                    Acepto las <a href="contacto.html#aviso">condiciones</a> 
+                </label>
+                <input type="submit" value="ENVIAR">
+            </div>
+        </div>
+    </form>
+</div>
+<footer>
+    <a href="#" class="topp">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <div class="col1 izquierda">
+        <p>BEACH LIFE</p>
+        <p>En todos lados</p>
+        <p>A todas horas</p>
+        <p>666 847 954 123</p>
+        <p>info@beachlife.es</p>
+    </div>
+    <div class="col1 centro">
+            <a href="index.html" class="activo">Inicio</a>
+            <a href="compra.html">Compras</a>
+            <a href="alquiler.html">Alquileres</a>
+            <a href="contacto.html">Contacto</a>
+    </div>
+    <div class="col1 derecha">
+        <div>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+            <a href="contacto.html#aviso" id="legal">Aviso legal</a>
+            <a href="contacto.html#cookies" id="legal">Cookies</a>
+        </div>
+    </div>
+    <div class="col100 minifooter">
+        <p>&copy; 2018 Beach Life</p>
+    </div>
+</footer>
+</body>
+</html>
